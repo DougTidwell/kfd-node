@@ -1,8 +1,7 @@
 FROM alpine
 
-# Load any public updates from Alpine packages, 
-# upgrade anything that needs it, and install 
-# node and npm. 
+# Load any public updates from Alpine packages, upgrade
+# anything that needs it, and install node and npm. 
 RUN apk update && \
     apk upgrade && \
     apk add nodejs nodejs-npm
