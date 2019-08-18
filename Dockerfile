@@ -19,6 +19,9 @@ RUN npm install
 # The app listens on port 3000
 EXPOSE 3000
 
+# Uncomment this line to turn on debugging
+# ENV DEBUG=kfd-node:*
+
 # Set the startup command
 CMD npm start 
 
